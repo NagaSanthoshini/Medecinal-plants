@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 10
+names: ['Medicinal-Arive Dantu', 'Medicinal-Basale', 'Medicinal-Neem', 'Medicinal-Rose Apple', 'Medicinal-Sandalwood', 'Poisonous-Calatropis', 'Poisonous-Datura_Stramonium', 'Poisonous-Deadly_Nightshade', 'Poisonous-Hemlock', 'Poisonous-Parthenium']
+
+roboflow:
+  workspace: project
+  project: medicinal-and-poisonous-plant-detection
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project/medicinal-and-poisonous-plant-detection/dataset/1
